@@ -1,0 +1,23 @@
+const errorMessages = {
+    PHONE_NUMBER_ALREADY_TAKEN: 'txt_Phone_number_already_taken',
+    EMAIL_ALREADY_TAKEN: 'txt_Email_already_taken',
+    COMPANY_NOT_FOUND: 'txt_Company_not_found',
+    INVALID_COUNTRYCODE:'txt_invalid_countrycode',
+    INVALID_OTP:'Invalid Otp',
+    INVALID_MOBILENO:'txt_Mobile_No',
+    DOCUMENT_NOT_UPLOADED:'DOCUMENT_NOT_UPLOADED',
+    DOCUMENT_REJECTED:'DOCUMENT_REJECTED',
+    DOCUMENT_EXPIRED:'DOCUMENT_EXPIRED',
+  };
+
+  const keyMessages = {
+    INDIVIDUAL:'INDIVIDUAL',
+    COMPANY:'COMPANY',
+    DOCUMENT_NOT_UPLOADED:'DOCUMENT_NOT_UPLOADED',
+    DOCUMENT_REJECTED:'DOCUMENT_REJECTED',
+    DOCUMENT_EXPIRED:'DOCUMENT_EXPIRED',
+    DOCUMENT_WAITING_FOR_APPROVAL:'DOCUMENT_WAITING_FOR_APPROVAL',
+    DOCUMENT_APPROVAL:'DOCUMENT_APPROVAL'
+  };
+  
+  module.exports = {keyMessages,errorMessages};
